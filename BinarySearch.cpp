@@ -29,7 +29,4 @@ int main()
 	int el;
 	cin>>el;
 	cout<<binarySearch(el,vac)<<endl;
-	// for(int i=0; i<n; i++)
-	// 	cout<<vac[i]<<" ";
-
 }
