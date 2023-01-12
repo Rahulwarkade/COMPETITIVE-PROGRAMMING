@@ -3,14 +3,15 @@ using namespace std;
 
 int main()
 {
-	// int a=24,b=7;
+	//swaping numbers without using third variable
+	int a=24,b=7;
 
-	// cout<<a<<" "<<b<<endl;
-	// a = a^b;
-	// b = b^a;
-	// a = a^b;
-
-	// cout<<a<<" "<<b<<endl;
+	cout<<a<<" "<<b<<endl;
+	a = a^b;
+	b = b^a;
+	a = a^b;
+	
+	cout<<a<<" "<<b<<endl;
 
 	int n;
 	cin>>n;
