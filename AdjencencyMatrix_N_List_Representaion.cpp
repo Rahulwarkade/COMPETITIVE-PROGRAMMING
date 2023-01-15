@@ -9,8 +9,6 @@ int main()
 {
 	int n,m;
 	cin>>n>>m;
-
-
 //Adjencency Matrix
 	//Space complexity = O(N^2) N<=10^3 or maximum 10^4
 		for(int j=0; j<m; j++)
