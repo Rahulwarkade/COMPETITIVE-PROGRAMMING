@@ -5,7 +5,7 @@ int binarySearch(int el, vector<int> &vac)
 {
 	int left = 0,right = vac.size()-1;
 
-	while(left<right)
+	while(left<=right)
 	{
 	    int mid = (left+right)/2;
 
