@@ -28,7 +28,7 @@ int main()
 	for(int i=0; i<n; i++)
 		cout<<arr[i]<<" ";
 
-	selectionSort(n,arr);
+	selectionSort(n,arr);//Time complexity = O(n^2)
 	cout<<endl;
 	cout<<"selection Sort : "<<endl;
 
